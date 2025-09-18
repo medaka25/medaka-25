@@ -182,7 +182,7 @@ Explores key graph statistics of MEDAKA including:
 
 ### LLM-as-Judge Evaluation
 ```bash
-python llm_eval.py \
+python scripts/llm_eval.py \
   --input-txt ./Medaka_Validation_Triples.txt \
   --pdf-dir ./data \
   --out-csv ./Medaka_Triples_Validated.csv \
