@@ -5,7 +5,7 @@
 
 <div align="center">
   <a href="" download>
-    <img src="https://img.shields.io/badge/DOWNLOAD%20MEDAKA%20v0.1-CSV-blue?style=for-the-badge&logo=csv&logoColor=white" alt="Download MEDAKA v0.1 CSV" style="height: 42px;">
+    <img src="https://img.shields.io/badge/DOWNLOAD%20MEDAKA%20v0.1-CSV-blue?style=for-the-badge&logo=csv&logoColor=white" alt="Download MEDAKA in CSV" style="height: 42px;">
   </a>
 </div>
 
