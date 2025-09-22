@@ -60,11 +60,11 @@ We present an end-to-end pipeline for constructing a biomedical KG from unstruct
 
 - The process begins with **data collection**, where drug leaflets are scraped from online pharmacies using a Python-based web scraper and converted into machine-readable text.
 
-- The raw text is then processed using a **prompt-based approach with an LLM**, queried multiple times to extract drug-related entities and relationships as subject–relation–object triplets.
+- The raw text is then processed using a **prompt-based approach with an LLM**, queried multiple times to extract drug-related entities and relationships as subject–relation–object triples.
 
-- A **majority voting step** retains only triplets occurring three or more times across generations, ensuring consistency and reliability.
+- A **majority voting step** retains only triples occurring three or more times across generations, ensuring consistency and reliability.
 
-- The validated triplets are transformed into **graph nodes and labeled edges**, forming the MEDAKA KG.
+- The validated triples are transformed into **graph nodes and labeled edges**, forming the MEDAKA KG.
 
 Finally, the structured data is exported in **CSV format**, forming the foundation of the MEDAKA KG.
 
