@@ -4,10 +4,12 @@
 <h1 align="center">MEDAKA: Construction of Biomedical Knowledge Graphs Using Large Language Models</h1>
 
 <div align="center">
-  <a href="" download>
-    <img src="https://img.shields.io/badge/DOWNLOAD%20MEDAKA%20-CSV-blue?style=for-the-badge&logo=csv&logoColor=white" alt="Download MEDAKA in CSV" style="height: 42px;">
+  <a href="https://github.com/medaka25/medaka-25/raw/main/dataset/medaka.zip">
+    <img src="https://img.shields.io/badge/DOWNLOAD%20MEDAKA%20-ZIP-blue?style=for-the-badge&logo=files&logoColor=white"
+         alt="Download MEDAKA ZIP" style="height: 42px;">
   </a>
 </div>
+
 
 
 ---
