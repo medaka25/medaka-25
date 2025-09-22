@@ -74,7 +74,7 @@ Finally, the structured data is exported in **CSV format**, forming the foundati
 <a name="description"></a>
 ## 📊 Description [[Back to Top]︎](#table-of-contents)
 
-As a demonstration of our general pipeline for the construction of KGs, we implemented and evaluated a case study focused on drug leaflets. The resulting KG, MEDAKA consists of 40,736 nodes and 245,432 directed, labeled edges. The following *[Figure 2](#figure-2)* and *[Figure 3](#figure-3)* show the distribution of various entity types and relation types in the dataset.
+As a demonstration of our general pipeline for the construction of KGs, we implemented and evaluated a case study focused on drug leaflets. The resulting KG, MEDAKA consists of 41,149 nodes and 466,558 directed, labeled edges. The following *[Figure 2](#figure-2)* and *[Figure 3](#figure-3)* show the distribution of various entity types and relation types in the dataset.
 
 <a name="figure-2"></a>
 <a name="figure-3"></a>
