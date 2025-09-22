@@ -187,7 +187,7 @@ python scripts/llm_eval.py \
   --pdf-dir ./data \
   --out-csv ./Medaka_Triples_Validated.csv \
   --pdf-suffix .pdf \
-  --temperature 0.0 \
+  --temperature <enter_temperature> \
   --max-tokens <enter_max_tokens> \
   --max-triples-per-call <enter_max_triples_per_call> \
   --max-leaflet-chars <enter_max_leaflet_chars> \
