@@ -47,7 +47,7 @@ We introduce a two-fold contribution:
 
 - **LLM-Based Information Extraction with Majority Voting:** Utilizes **LLaMA 3.3 70B Instruct** model for prompt-based extraction of subject–relation–object triples directly from full-text PDFs. Each leaflet is queried multiple times, and triples occurring at least 3 times are retained, boosting precision and reducing LLM hallucination.
 
-- **Ready-to-Use Dataset:** *MEDAKA* can be downloaded in a ready-to-use CSV format.
+- **Ready-to-Use Dataset:** *MEDAKA* can be [downloaded](https://github.com/medaka25/medaka-25/raw/main/dataset/medaka.zip) in a ready-to-use CSV format.
 
 - **Broader Clinical Coverage:**  Captures practical features often missing in other biomedical KGs and databases, including storage information, physical appearance (shape, color), and inactive ingredients.
 
