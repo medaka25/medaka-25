@@ -188,11 +188,11 @@ python scripts/llm_eval.py \
   --out-csv ./Medaka_Triples_Validated.csv \
   --pdf-suffix .pdf \
   --temperature 0.0 \
-  --max-tokens ENTER_NUMERIC_VALUE \
-  --max-triples-per-call ENTER_NUMERIC_VALUE \
-  --max-leaflet-chars ENTER_NUMERIC_VALUE \
-  --api-url API_URL \
-  --model-name MODEL_NAME \
-  --api-key $YOUR_API_KEY
+  --max-tokens <enter_max_tokens> \
+  --max-triples-per-call <enter_max_triples_per_call> \
+  --max-leaflet-chars <enter_max_leaflet_chars> \
+  --api-url  <your_llm_url> \
+  --model-name <your_model_name> \
+  --api-key <your_api_key>
 ```
 This step is part of the evaluation process which validates a set of random triples against the original leaflet PDFs using an LLM-as-Judge framework. Each triple is labeled as Correct, Incorrect, or Partially Correct, with a short reasoning grounded in the leaflet text. Results are saved to a CSV file.
