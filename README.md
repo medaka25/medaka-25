@@ -32,7 +32,7 @@ We introduce a two-fold contribution:
 <p align="center">
   <img src="figures/Medaka_Final_Pipeline_v1.png" alt="Pipeline Overview" width="100%">
 </p>
-<em>Figure 1: Pipeline</em>
+<em>Figure 1: Pipeline Overview - Drug leaflets are scraped and parsed into text, queried five times with an LLM for entity–relation extraction, filtered via majority voting, and assembled into the final KG.</em>
 
 ---
 
