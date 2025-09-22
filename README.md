@@ -41,7 +41,7 @@ We introduce a two-fold contribution:
 
 - **End-to-End KG Pipeline:**  A modular and hackable pipeline that extracts structured knowledge from unstructured text using a web scraper and an LLMs. 
 
-- **Drug Leaflet-Centric Knowledge Graph:**  *MEDAKA* is constructed from 13,000+ drug leaflets sourced from the HPRA website, capturing real-world, clinical data important for both patients and medical practitioners.
+- **Drug Leaflet-Centric KG:**  *MEDAKA* is constructed from 13,000+ drug leaflets sourced from the HPRA website, capturing real-world, clinical data important for both patients and medical practitioners.
 
 - **LLM-Based Information Extraction with Majority Voting:** Utilizes **LLaMA 3.3 70B Instruct** model for prompt-based extraction of subject–relation–object triples directly from full-text PDFs. Each leaflet is queried multiple times, and triples occurring at least 3 times are retained, boosting precision and reducing LLM hallucination.
 
@@ -56,7 +56,7 @@ We introduce a two-fold contribution:
 <a name="pipeline"></a>
 ## 🧬 Pipeline [[Back to Top]︎](#table-of-contents)
 
-We present an end-to-end pipeline for constructing a biomedical knowledge graph from unstructured drug leaflet data.
+We present an end-to-end pipeline for constructing a biomedical KG from unstructured drug leaflet data.
 
 - The process begins with **data collection**, where drug leaflets are scraped from online pharmacies using a Python-based web scraper and converted into machine-readable text.
 
@@ -64,9 +64,9 @@ We present an end-to-end pipeline for constructing a biomedical knowledge graph 
 
 - A **majority voting step** retains only triplets occurring three or more times across generations, ensuring consistency and reliability.
 
-- The validated triplets are transformed into **graph nodes and labeled edges**, forming the MEDAKA knowledge graph.
+- The validated triplets are transformed into **graph nodes and labeled edges**, forming the MEDAKA KG.
 
-Finally, the structured data is exported in **CSV format**, forming the foundation of the MEDAKA knowledge graph.
+Finally, the structured data is exported in **CSV format**, forming the foundation of the MEDAKA KG.
 
 > 📌 *[Figure 1](#figure-1-pipeline) above shows a visual overview of the pipeline, highlighting each step from raw data collection to graph construction.*
 ---
@@ -156,7 +156,7 @@ python scripts/extract_information.py \
 Uses an LLM (e.g., LLaMA 3 70B Instruct) to extract drug-related information using prompts in the form of  structured biomedical triples (drug name, relation, object). It applies majority voting across multiple generations to improve reliability, assigns confidence scores, converts triples to lowercase, removes duplicates and writes results into a CSV file. Replace the LLM arguments with your preferred model and endpoint.
 
 
-### 3. Knowledge Graph Construction
+### 3. KG Construction
 - **Step 4: Filter triples based on confidence scores**
 ```bash
 python scripts/filter_triples.py \
