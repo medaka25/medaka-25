@@ -5,7 +5,7 @@
 
 <div align="center">
   <a href="https://github.com/medaka25/medaka-25/raw/main/dataset/medaka.zip">
-    <img src="https://img.shields.io/badge/DOWNLOAD%20MEDAKA%20-ZIP-blue?style=for-the-badge&logo=files&logoColor=white"
+    <img src="https://img.shields.io/badge/DOWNLOAD%20MEDAKA%20-gray?style=for-the-badge&logo=files&logoColor=white"
          alt="Download MEDAKA ZIP" style="height: 42px;">
   </a>
 </div>
