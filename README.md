@@ -103,7 +103,7 @@ Follow these steps to set up the project locally:
 ### 1. Clone the repository
 ```bash
 git clone https://github.com/medaka25/medaka-25.git
-cd medaka
+cd medaka-25
 ```
 
 ### 2. Create and activate virtual environment
