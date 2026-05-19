@@ -1,9 +1,8 @@
 """
 This script processes drug leaflets in PDF format and extracts structured
-biomedical knowledge triples (subject, relation, object) using an LLM model.
+biomedical knowledge triples (subject, relation, object) using an LLM.
 It applies majority voting across multiple generations to increase reliability,
-assigns confidence scores, and saves results into a CSV file. The script also
-keeps track of processed files to avoid duplication and enforces API rate limits.
+assigns confidence scores, and saves results into a CSV file.
 """
 
 # === Imports ===
