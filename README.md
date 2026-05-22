@@ -51,6 +51,8 @@ We introduce a two-fold contribution:
 
 - **Broader Clinical Coverage:**  Captures practical features often missing in other biomedical KGs and databases, including storage information, physical appearance (shape, color), and inactive ingredients.
 
+- **Excipient-Aware Retrieval Use Case:** Shows how MEDAKA supports formulation-level safety screening by identifying drugs containing selected inactive ingredients and retrieving same-active-ingredient alternatives where that excipient is not recorded.
+
 - **Generalizable & Open Source:**  The pipeline is reusable and adaptable across domains and document types, and the full codebase is open source.
 
 ---
@@ -198,3 +200,11 @@ python scripts/llm_eval.py \
   --api-key <your_api_key>
 ```
 This step is part of the evaluation process which validates a set of random triples against the original leaflet PDFs using an LLM-as-Judge framework. Each triple is labeled as Correct, Incorrect, or Partially Correct, with a short reasoning grounded in the leaflet text. Results are saved to a CSV file.
+
+---
+### Excipient-Aware Drug Retrieval Using MEDAKA
+```bash
+MEDAKA_CSV="/path/to/medaka_v1.csv" jupyter notebook scripts/excipient_aware_drug_retrieval.ipynb
+```
+Demonstrates how MEDAKA can support excipient-aware formulation substitution by retrieving same-active-ingredient alternatives that do not contain a selected inactive ingredient.
+
